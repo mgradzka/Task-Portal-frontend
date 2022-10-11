@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your daily tasks</title>
+    <link href="./assets/styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a id="homeBtn" class="nav-item btn-collection">Back to the profile page</a>
+        <h1 id="title"></h1>
+        <div>
+          <a href="?login-page" id="logInBtn" class="nav-item btn-collection">Sign in</a>
+          <a href="?signup-page" id="signUpBtn" class="nav-item btn-collection">Sign up</a>
+          <a class="hidden nav-item btn-collection" id="signOutBtn">Sign out </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="highlevel-btn-container">
+        <a href="?uploadtask" class=" nav-item filterBtn hidden" id="uploadTaskBtn">Upload task </a>
+        <a href="?mytasks" class=" nav-item filterBtn hidden btn-collection" id="myTasksBtn">My tasks</a>
+      </div>
+      
+      <div class="btn-container">
+        <a href="#" class=" nav-item filterBtn hidden btn-collection" id="applyBtn">Apply task</a>
+        <a href="#" class=" nav-item filterBtn hidden btn-collection" id="deleteBtn">Delete task</a>
+      </div>
+      
+      <section id="container">
+      <h4 class="hidden" id="whoapplied">The applicants</h4>
+      </section>
+    </main>
+   
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
